@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController, UITextFieldDelegate, UINavigationControllerDelegate {
 
     //MARK: Properties
     @IBOutlet weak var messageLabel: UILabel!

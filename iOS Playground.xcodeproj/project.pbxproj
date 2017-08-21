@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572DC6AA1F4A85320015BB80 /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DC6A91F4A85320015BB80 /* CoreMLViewController.swift */; };
 		57636F1B1F47DC35004AE13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57636F1A1F47DC35004AE13D /* AppDelegate.swift */; };
 		57636F1D1F47DC35004AE13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57636F1C1F47DC35004AE13D /* ViewController.swift */; };
 		57636F201F47DC35004AE13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57636F1E1F47DC35004AE13D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		572DC6A91F4A85320015BB80 /* CoreMLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
 		57636F171F47DC35004AE13D /* iOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57636F1A1F47DC35004AE13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57636F1C1F47DC35004AE13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				57636F1A1F47DC35004AE13D /* AppDelegate.swift */,
 				57636F1C1F47DC35004AE13D /* ViewController.swift */,
+				572DC6A91F4A85320015BB80 /* CoreMLViewController.swift */,
 				57636F1E1F47DC35004AE13D /* Main.storyboard */,
 				57636F211F47DC35004AE13D /* Assets.xcassets */,
 				57636F231F47DC35004AE13D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57636F1D1F47DC35004AE13D /* ViewController.swift in Sources */,
+				572DC6AA1F4A85320015BB80 /* CoreMLViewController.swift in Sources */,
 				57636F1B1F47DC35004AE13D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				57636F2B1F47DC35004AE13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
